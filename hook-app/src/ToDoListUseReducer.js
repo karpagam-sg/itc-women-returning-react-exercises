@@ -46,6 +46,7 @@ export default function ToDoListUseReducer() {
   function HandleReset() {
     dispatch({ type: "RESET", payload: "" });
   }
+
   return (
     <div>
       <h2>TO Do List {todos.length}</h2>

@@ -3,7 +3,8 @@ import { createContext } from "react";
 // import ToDOListComponent from "./ToDoListComponent";
 // import ToDoList from "./ToDoList";
 //import ComponentA from "./components/ComponentA";
-import ToDoListUseReducer from "./ToDoListUseReducer";
+//import ToDoListUseReducer from "./ToDoListUseReducer";
+import MemoHook from "./MemoHook";
 
 export const Context = createContext();
 
@@ -18,7 +19,8 @@ function App() {
         {/* <Context.Provider value={name}>
           <ComponentA></ComponentA>
         </Context.Provider> */}
-        <ToDoListUseReducer></ToDoListUseReducer>
+        {/* <ToDoListUseReducer></ToDoListUseReducer> */}
+        <MemoHook></MemoHook>
       </header>
     </div>
   );
