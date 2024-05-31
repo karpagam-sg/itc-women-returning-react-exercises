@@ -1,7 +1,7 @@
 import { useState } from "react";
 import TODoComponent from "./ToDoComponent";
 
-export default function ToDOListComponent() {
+export default function ToDoListComponent() {
   const [todo, settodo] = useState({ name: "", completed: false });
   const [todos, settodos] = useState([]);
   function HandleSubmit(e) {
