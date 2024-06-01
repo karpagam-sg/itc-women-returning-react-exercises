@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function SignUpForm() {
+export default function SignUpForm(addRecipe) {
   const [name, setName] = useState({
     firstName: "",
     lastName: "",

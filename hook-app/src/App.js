@@ -4,7 +4,8 @@ import { createContext } from "react";
 // import ToDoList from "./ToDoList";
 //import ComponentA from "./components/ComponentA";
 //import ToDoListUseReducer from "./ToDoListUseReducer";
-import MemoHook from "./MemoHook";
+//import MemoHook from "./MemoHook";
+import Bootstrap from "./ReactBootstrap";
 
 export const Context = createContext();
 
@@ -20,7 +21,8 @@ function App() {
           <ComponentA></ComponentA>
         </Context.Provider> */}
         {/* <ToDoListUseReducer></ToDoListUseReducer> */}
-        <MemoHook></MemoHook>
+        {/* <MemoHook></MemoHook> */}
+        <Bootstrap></Bootstrap>
       </header>
     </div>
   );
